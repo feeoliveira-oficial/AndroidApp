@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/userEmailText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome! {userEmail}"
+        android:textSize="24sp"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_marginTop="16dp"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/goToTasksButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Tasks"
+        android:layout_marginTop="16dp"
+        android:padding="12dp" />
+
+
+</LinearLayout>
